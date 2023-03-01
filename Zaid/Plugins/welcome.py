@@ -225,8 +225,8 @@ async def welcome_trigger(event):
 
 Promote me as administrator in your group otherwise I will not function properly""",
             buttons=[
-                [Button.url("Support Chat", "https://t.me/TheSupportChat")],
-                [Button.url("Updates Channel", "https://t.me/TheUpdatesChannel")],
+                [Button.url("Support Chat", "https://t.me/TOXIC_WORLD_2")],
+                [Button.url("Updates Channel", "https://t.me/CRUSH_WORLD_DP_GIF_ZONE")],
             ],
         )
         x = await Zaid(GetFullChannelRequest(chat_id))
@@ -268,7 +268,7 @@ Promote me as administrator in your group otherwise I will not function properly
         if style in ["math", "text"]:
             custom_welcome = (
                 custom_welcome
-                + f"[{es}](btnurl://t.me/Zaid2_Robot?start=captcha_{chat_id})"
+                + f"[{es}](btnurl://t.me/CRUSH_MUSIC_BOT?start=captcha_{chat_id})"
             )
     if custom_welcome:
         welcome_text, buttons = button_parser(custom_welcome)
